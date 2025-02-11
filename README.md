@@ -1,43 +1,71 @@
-# Endless Runner 
+# Endless Runner - Pseudo 3D Game 
+This project uses various perspective and python tricks to present a 2D game as if it was 3D
 
-## Follow these steps to install and run the game:
+# Project Download and Run guide
 
-### 1.Download Python
+Follow these steps to set up and run the project on your local machine.
 
-If you haven't installed Python, download and install it from https://www.python.org/downloads/
+## Prerequisites
+- Ensure Python is installed on your system. You can check by running:
+ ```sh
+  python --version
+  ```
+  If Python is not installed, download it from [python.org](https://www.python.org/) and install it.
 
-### 2.Install Pygame
+## Setup Instructions
 
-Open a terminal or command prompt and run the following command:
+### 1. Open Terminal
+Open your terminal or command prompt to begin setting up the project.
 
-pip install pygame
+### 2. Create a Virtual Environment
+Run the following command to create a virtual environment:
+```sh
+python -m venv venv
+```
 
-### 3.Download the Game Files
+### 3. Activate the Virtual Environment
+- **Windows:**
+  ```sh
+  venv\Scripts\activate
+  ```
+- **Mac/Linux:**
+  ```sh
+  source venv/bin/activate
+  ```
 
-Clone or download this repository to your local machine.
+### 4. Install Pygame 2.6.1
+Once the virtual environment is activated, install Pygame by running:
+```sh
+pip install -r requirements.txt
+```
 
-If using Git, run:
+### 5. Download the Files from the Repository
+Clone the repository or download the necessary files from GitHub.
+```sh
+git clone https://github.com/your-repo-name.git
+cd your-repo-name
+```
 
-git clone <repository_url>
+### 6. Navigate to the File in Terminal
+Ensure you are in the correct directory where `main.py` is located.
+```sh
+cd path/to/your/project
+```
 
-### 4.Run the Game
-
-Navigate to the game directory in the terminal or command prompt.
-
-Run the following command:
-
+### 7. Run the Python Script
+Execute the main script to start the project:
+```sh
 python main.py
+```
 
-## Controls
+## Additional Notes
+- If you encounter errors, ensure dependencies are installed correctly.
+- To exit the virtual environment, use:
+  ```sh
+  deactivate
+  ```
+# Credits
 
-A = Left<br/>
-D = Right<br/>
-Space = Jump<br/>
-Enter = New Game<br/>
-
-## Credits
-
-Developed by me Trace
-
+ Trace 
 
 
