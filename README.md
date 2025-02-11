@@ -17,13 +17,20 @@ Follow these steps to set up and run the project on your local machine.
 ### 1. Open Terminal
 Open your terminal or command prompt to begin setting up the project.
 
-### 2. Create a Virtual Environment
+### 2. Download the Files from the Repository
+Clone the repository or download the necessary files from GitHub.
+```sh
+git clone git@github.com:Tracewyd/Endless-Runner.git Endless-Runner.git 
+cd Endless-Runner.git
+```
+
+### 3. Create a Virtual Environment
 Run the following command to create a virtual environment:
 ```sh
 python -m venv venv
 ```
 
-### 3. Activate the Virtual Environment
+### 4. Activate the Virtual Environment
 - **Windows:**
   ```sh
   venv\Scripts\activate
@@ -33,26 +40,13 @@ python -m venv venv
   source venv/bin/activate
   ```
 
-### 4. Install Pygame 2.6.1
+### 5. Install the Requirements
 Once the virtual environment is activated, install Pygame by running:
 ```sh
 pip install -r requirements.txt
 ```
 
-### 5. Download the Files from the Repository
-Clone the repository or download the necessary files from GitHub.
-```sh
-git clone https://github.com/your-repo-name.git
-cd your-repo-name
-```
-
-### 6. Navigate to the File in Terminal
-Ensure you are in the correct directory where `main.py` is located.
-```sh
-cd path/to/your/project
-```
-
-### 7. Run the Python Script
+### 6. Run the Python Script
 Execute the main script to start the project:
 ```sh
 python main.py
@@ -64,8 +58,5 @@ python main.py
   ```sh
   deactivate
   ```
-# Credits
-
- Trace 
 
 
