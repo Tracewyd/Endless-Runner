@@ -10,7 +10,7 @@ Follow these steps to set up and run the project on your local machine.
 ## Prerequisites
 - Ensure Python is installed on your system. You can check by running:
  ```sh
-  python --version
+  python3 --version
   ```
   If Python is not installed, download it from [python.org](https://www.python.org/) and install it.
 
@@ -29,7 +29,7 @@ cd Endless-Runner.git
 ### 3. Create a Virtual Environment
 Run the following command to create a virtual environment:
 ```sh
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### 4. Activate the Virtual Environment
